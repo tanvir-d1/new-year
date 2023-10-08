@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gabarito', cursive;
+}
+
+/* -------------------------Banner----------------------------- */
+
+.banner{
+    background-image: url(images/banner/banner3.png) ;
+    background-size: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    text-align: right;
+    margin-bottom: 140px;
+}
+.banner .banner-content{
+    padding: 170px 60px 0 50%;
+}
+.banner .banner-content h1{
+    font-size: 65px;
+    font-weight: 700;
+    color: #fff;
+
+}
+.banner .banner-content p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 30px 0 30px 150px ;
+}
+.btn{
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px 25px;
+    border: 0;
+}
+.btn:hover{
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #e2e2e2;
+    border-radius: 5px;
+    padding: 20px 25px;
+    border: 0;
+}
+
+/* -------------------------Failures-content----------------------------- */
+
+.my-failures{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 180px;
+    margin: 60px 0;
+}
+.failures-content h2{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 24px 0;
+}
+.failures-content .failures-details{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 16px 0;
+    margin-right: 180px;
+}
+.fa-solid{
+    color: rgb(0, 255, 0);
+}
+.failures-content p{
+    color: #444343;
+    padding: 5px 0;
+}
+
+/* -------------------------My Plans----------------------------- */
+
+.my-plans{
+    margin: 40px 100px;
+}
+.my-plans h2{
+    color: 151414;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin: 40px 0;
+}
+.plans{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.plans p{
+    color: #444343;
+}
+
+/* -------------------------My Plans----------------------------- */
+
+.mindset{
+    background-image: linear-gradient(to right,rgba(0, 119, 255, .7),rgba(30, 0, 0, 0)),url(images/watch.png);
+    /* background-repeat: no-repeat; */
+    width: 1000px;
+    height: 250px;
+    margin: 60px 200px;
+    border-radius: 20px;
+}
+.mindset h3{
+    width: 549px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    padding: 40px 50px 10px 40px;
+}
+.mindset button{
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px 25px;
+    border: 0;
+    margin: 0 0 10px 40px;
+}
+
+/* -------------------------Footer----------------------------- */
+
+footer{
+    background-color: #151414;
+}
+.footer{
+    display: flex;
+    justify-content: space-between  ;
+    align-items: center;
+}
+.footer-future{
+    margin: 70px 70px;
+    width: 40%;
+}
+.footer-future h2{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 10px;
+}
+.footer-future p{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 10px;
+}
+.footer-future img{
+    padding: 6px;
+    width: 40px;
+}
+.footer-subscribe{
+    margin: 70px 70px;
+    width: 40%; 
+}
+.footer-subscribe h3{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.footer-subscribe input{
+    background-color: black;
+    border: 1px solid gray;
+    padding: 10px;
+    width: 60%;
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 10px ;
+}
+.footer-subscribe button{
+    
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #005FAC;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: 0;
+    margin: 10px 0;
+}
